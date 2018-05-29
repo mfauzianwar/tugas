@@ -1,0 +1,41 @@
+  <!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<title>Belajar HTML</title>
+	</head>
+	<body>
+	<h1>Form HTML</h1>
+		<form action="" method="post">
+		<label>Name :</label>&nbsp;&nbsp;&nbsp;<input type="text" name="nama" />
+<br/>
+<br/>
+		<label>Gender :</label>&nbsp;&nbsp;<input type="radio" name="kelamin"
+		value="M" /> Man <input type="radio" name="kelamin" value="W" /> Woman
+<br/>
+<br/>
+		<label>Address :</label>&nbsp;&nbsp;<input type="text" name="Address" />
+<br/>
+<br/>
+		<label>Country :</label>&nbsp;&nbsp;<select name="country">
+		<option value="Indonesia">Indonesia</option>
+		<option value="Filiphina">Filiphina</option>
+		<option value="Jepang">Jepang</option>
+		</select>
+<br/>
+<br/>
+		<label>Email :</label>&nbsp;&nbsp;<input type="text" name="email" />
+<br/>
+<br/>
+		<label>Photo : </label>&nbsp;&nbsp;
+		<form method="POST" action="response.php"
+		enctype="multipart/form-data">
+		<input type="file" name="upload" value="" width="200" />
+<br/>
+<br/>
+		<label>Comments :</label>&nbsp;&nbsp;<textarea name="alamat" cols="20"
+		rows="3"></textarea>
+		<button type="submit">Submit</button>
+<br/>
+	</form>
+	</body>
+	</html>
